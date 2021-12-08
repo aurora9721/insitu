@@ -9,14 +9,48 @@ body {
     box-sizing: border-box;
 }
 
+/* ----------- FONTZ------------- */
+
+@font-face {
+  font-family: 'Apfel Grotezk';
+  font-weight: bold;
+  src: url(fonts/ApfelGrotezk-Fett.otf);
+}
+
+@font-face {
+  font-family: 'Apfel Grotezk';
+  src: url(fonts/ApfelGrotezk-Regular.otf);
+}
+
+/* --------------------------------- */
+
 .wrapper {
   width: 100vw;
   height: 100vh;
   background-color: lightgrey;
+}
+
+.phonewrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: none;
   display: flex;
   align-items: center;
   justify-content: center;
 
+}
+
+.walkthru {
+  position: absolute;
+  top:10vh;
+  left:4vw;
+  width: 30vw;
+}
+
+p {
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-size: 1.4vw;
+  font-weight: normal;
 }
 
 .phone {
