@@ -22,12 +22,17 @@ body {
   src: url(fonts/ApfelGrotezk-Regular.otf);
 }
 
+@font-face {
+  font-family: 'KyivType Sans Heavy-';
+  src: url(fonts/KyivType_Sans_Heavy.otf);
+}
+
 /* --------------------------------- */
 
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: lightgrey;
+  background-color: whitesmoke;
 }
 
 .phonewrap {
@@ -47,11 +52,40 @@ body {
   width: 30vw;
 }
 
+span {
+  font-family: 'KyivType Sans Heavy-';
+  font-size:1.5vw;
+}
+
 p {
   font-family: 'Apfel Grotezk', sans-serif;
   font-size: 1.4vw;
   font-weight: normal;
+  line-height: 1.8vw;
 }
+
+a {
+  /* text-decoration: none; */
+  color:inherit;
+}
+
+a:link {
+  color:inherit;
+}
+
+a:visited {
+  color:inherit;
+}
+
+a:hover {
+  /* color:darkgrey; */
+  font-weight: bold;
+}
+
+a:active {
+  color:#1fffd4;
+}
+
 
 .phone {
   background-color: black;
@@ -101,6 +135,16 @@ img {
   display: none;
 }
 
+/* --------------- MOBILE DEVICES ------------------ */
+/*
+@media screen and (min-width:0px) and (max-width:499px) {
+ */
+/* --------- LAPTOPS & MEDIUM DEVICES -------------- */
+/*
+@media screen and (min-width:500px) and (max-width:1399px) {
+ */
+/* ---------------- BIG DESKTOPS ------------------- */
+
 @media screen and (min-width:1400px) and (max-width:6000px) {
   .phone {
     width: 355px;
@@ -116,4 +160,5 @@ img {
     img {
       width: 339px;
     }
+
 }
