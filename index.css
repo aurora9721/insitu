@@ -6,6 +6,7 @@ body {
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -156,12 +157,37 @@ img {
 }
 
 /* --------------- MOBILE DEVICES ------------------ */
-/*
+
 @media screen and (min-width:0px) and (max-width:499px) {
- */
+
+  .wrapper {
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .walkthru {
+    position: relative;
+    top: 4vh;
+    left: 6vw;
+    width: 86vw;
+  }
+
+  p {
+    font-size: 3.4vw;
+    line-height: 3.6vw;
+  }
+
+  span {
+    font-size:3.5vw;
+  }
+
+}
+
 /* --------- LAPTOPS & MEDIUM DEVICES -------------- */
 /*
 @media screen and (min-width:500px) and (max-width:1399px) {
+
+}
  */
 /* ---------------- BIG DESKTOPS ------------------- */
 
