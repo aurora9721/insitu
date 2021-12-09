@@ -131,8 +131,12 @@ img {
   width: 242px;
 }
 
-#img1 {
+#img0 {
   display: block;
+}
+
+#img1 {
+  display: none;
 }
 
 #img2 {
