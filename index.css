@@ -77,8 +77,28 @@ p {
 }
 
 img {
-  display: block;
+  /* display: block; */
   width: 242px;
+}
+
+#img1 {
+  display: block;
+}
+
+#img2 {
+  display: none;
+}
+
+#img3 {
+  display: none;
+}
+
+#img4 {
+  display: none;
+}
+
+#img5 {
+  display: none;
 }
 
 @media screen and (min-width:1400px) and (max-width:6000px) {
