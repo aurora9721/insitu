@@ -101,8 +101,24 @@ a:active {
   border-radius: 15px;
   border-style: solid;
   border-color: black;
-  box-shadow: 6px 10px 16px 5px darkgrey;
-  /* h-offset v-offset blur spread color */
+  box-shadow:
+    -3px -5px 7px 3px hsl(0deg 0% 100% / 56%),
+    /* 3px 5px 25px 3px hsl(196deg 40% 35% / 15%), */
+    6px 10px 22px -5px hsl(0deg 19% 35% / 20%),
+    19px 19px 49px -11px hsl(31deg 17% 20% / 65%)
+    ;
+
+    /* -3px -5px 7px 3px hsl(0deg 0% 100% / 56%),
+    3px 5px 10px 3px hsl(196deg 40% 35% / 15%),
+    6px 10px 25px 6px hsl(0deg 18% 35% / 45%),
+    10px 14px 30px 20px hsl(31deg 17% 20% / 12%) */
+
+    /* 19px 19px 49px -11px hsl(31deg 17% 20% / 65%) */
+
+
+    /* 6px 10px 16px 5px darkgrey,
+    6px 10px 24px 15px darkgrey */
+  /* h-offset v-offset blur spread color hsl(hue/deg saturation/% lightness/% / 0.opacity) */
 
 }
 
@@ -155,7 +171,7 @@ img {
     border-bottom: 55px;
     border-radius: 30px;
     border-style: solid;
-    box-shadow: 6px 10px 16px 5px darkgrey;
+
   }
     img {
       width: 339px;
