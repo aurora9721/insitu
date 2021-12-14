@@ -10,6 +10,7 @@
 //   document.getElementById("img1").style.display = "none"
 // }
 
+
 function homeClick() {
     document.getElementById("img0").style.display = "block"
       document.getElementById("img1").style.display = "none"
