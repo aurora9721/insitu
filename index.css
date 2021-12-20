@@ -48,11 +48,38 @@ body {
   justify-content: center;
 }
 
-.walkthru {
+.info {
+  padding:10px;
+  background: black;
+  color: whitesmoke;
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-size: 1.2vw;
+  font-weight: normal;
+  line-height: 1.4vw;
+  border-radius: 20px;
   position: absolute;
+  display: flex;
   top:10vh;
   left:4vw;
+  width: auto;
+}
+
+.walkthru {
+  position: absolute;
+  top:20vh;
+  left:4vw;
   width: 30vw;
+}
+
+.readmore {
+  padding:10px;
+  background: #1fffd4;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  top:10vh;
+  left:66vw;
+  width: auto;
 }
 
 span {
